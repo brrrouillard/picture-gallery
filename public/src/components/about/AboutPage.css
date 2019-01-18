@@ -1,0 +1,41 @@
+#about-page {
+  display: flex;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#about-div {
+  max-width: 50vw;
+}
+
+h1 {
+  opacity: 1;
+  font-size: 500%;
+  z-index: 1000;
+  font-weight: 100;
+  margin: 0%;
+  margin-bottom: 5%;
+  color: white;
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+  color: white;
+  font-size: 150%;
+  font-weight: 200;
+}
+
+.bold {
+  font-weight: 400;
+}
+#home-button {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    padding: 2%;
+}

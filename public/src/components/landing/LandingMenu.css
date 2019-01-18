@@ -1,0 +1,47 @@
+#menu-section {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+h1 {
+  opacity: 1;
+  font-size: 500%;
+  z-index: 1000;
+  font-weight: lighter;
+  margin: 0%;
+  margin-bottom: 5%;
+  color: white;
+}
+
+#buttons {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+ button {
+  background: #fff;
+  border: 0;
+  padding: 4%;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 0%;
+  cursor: pointer;
+  font-weight: lighter;
+  font-size: 150%;
+  color: black;
+  transition-duration: 600ms;
+}
+
+button:hover {
+  transition-duration: 200ms;
+  transform: scale(0.93);
+  border-radius: 5%;
+}
+
+#about-button {
+  background: black;
+  color: white;
+  border: 1px solid white;
+}
